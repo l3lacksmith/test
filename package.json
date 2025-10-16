@@ -1,0 +1,10 @@
+{
+  "name": "peer-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "peerjs --port 443 --path /"
+  },
+  "dependencies": {
+    "peer": "^1.0.0"
+  }
+}

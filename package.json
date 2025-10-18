@@ -1,10 +1,13 @@
 {
-  "name": "peer-server",
+  "name": "signaling-server",
   "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "peerjs --port 443 --path /"
+    "start": "node server.js"
   },
   "dependencies": {
-    "peer": "^1.0.0"
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
   }
 }
